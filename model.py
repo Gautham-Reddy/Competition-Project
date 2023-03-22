@@ -31,10 +31,10 @@ print(len(Y))
 
 X = np.array(X)
 Y = np.array(Y)
-X_training = X[:int(len(X) * 0.7)]
-X_test = X[int(len(X) * 0.7):]
-Y_training = Y[:int(len(Y) * 0.7)]
-Y_test = Y[int(len(Y) * 0.7):]
+X_training = X[:int(len(X) * 0.1)]
+X_test = X[int(len(X) * 0.1):]
+Y_training = Y[:int(len(Y) * 0.1)]
+Y_test = Y[int(len(Y) * 0.1):]
 
 clf = svm.SVC()
 print("starting training")
